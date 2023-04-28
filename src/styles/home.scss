@@ -1,0 +1,24 @@
+$title-color: #f0a293;
+
+#cover {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+#title {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-right: 4rem;
+  padding-top: 3rem;
+
+  p {
+    writing-mode: vertical-rl;
+    color: $title-color;
+    background-color: white;
+    font-size: 4rem;
+    margin: 1rem;
+  }
+}
