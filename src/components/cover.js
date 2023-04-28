@@ -6,6 +6,7 @@ const CoverComponent = () => {
     return (
         <div id="cover">
             <TitleComponent />
+            <div id="cover-img"></div>
         </div>
     )
 };
