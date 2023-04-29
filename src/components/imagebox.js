@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useCallback} from "react";
+import React, {useState, useEffect} from "react";
 
 const ImgboxComponent = () => {
     const imgUrls = [
@@ -24,6 +24,7 @@ const ImgboxComponent = () => {
             {imgUrls.map((imgUrl, index) => (
                 <div key={index} className="imgbox-img" style={{backgroundImage: `url("${imgUrl}")`, opacity: opacities[index]}}></div>
             ))}
+            <div className="img-cover" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/mask.home.svg)`}}></div>
         </div>
     );
 };

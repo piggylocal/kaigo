@@ -4,12 +4,13 @@ $title-color: #f0a293;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
-  min-height: 100vh;
+  min-height: 135vh;
   min-width: 100%;
 
   .imgbox {
+    top: 0;
     width: 100%;
-    height: 100%;
+    height: 135vh;
     position: absolute;
     z-index: -1;
 
@@ -23,6 +24,18 @@ $title-color: #f0a293;
       background-position: center;
       background-repeat: no-repeat;
       transition: 1s ease-in-out;
+    }
+
+    .img-cover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
     }
   }
 
