@@ -4,6 +4,7 @@ const ImgboxComponent = () => {
     const imgUrls = [
         "https://i.imgur.com/yd6sGar.jpg",
         "https://i.imgur.com/vLYX3WX.jpg",
+        "https://i.imgur.com/u18Ht2V.jpg",
     ];
     const opacities = Array(imgUrls.length).fill(0);
     const [imageIndex, setImageIndex] = useState(0);
