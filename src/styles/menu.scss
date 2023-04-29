@@ -1,4 +1,4 @@
-$menu-line-color: black;
+$menu-color: #333;
 
 #menu {
   z-index: 10;
@@ -15,7 +15,7 @@ $menu-line-color: black;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: $menu-line-color;
+    color: $menu-color;
     font-size: 0.4rem;
   }
 
@@ -24,7 +24,7 @@ $menu-line-color: black;
     width: 54px;
     left: 33px;
     height: 3px;
-    background-color: $menu-line-color;
+    background-color: $menu-color;
 
     transition: 0.3s ease;
   }
@@ -69,6 +69,7 @@ $menu-line-color: black;
     writing-mode: vertical-rl;
     font-size: 2rem;
     padding: 0 0.8rem;
+    color: $menu-color;
   }
 
   &.active {
