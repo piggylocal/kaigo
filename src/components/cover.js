@@ -1,12 +1,13 @@
 import React from 'react';
 
 import TitleComponent from "./title";
+import ImgboxComponent from "./imagebox";
 
 const CoverComponent = () => {
     return (
         <div id="cover">
             <TitleComponent />
-            <div id="cover-img"></div>
+            <ImgboxComponent />
         </div>
     )
 };
