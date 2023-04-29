@@ -26,7 +26,7 @@ $menu-color: #333;
     height: 3px;
     background-color: $menu-color;
 
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
   }
 
   .line-top {
@@ -63,7 +63,7 @@ $menu-color: #333;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 
   .menu-content-text {
     writing-mode: vertical-rl;
