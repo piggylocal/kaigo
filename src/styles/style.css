@@ -18,7 +18,7 @@ body {
 #cover {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-start;
+  justify-content: space-between;
   min-height: 135vh;
   min-width: 100%;
 }
@@ -57,17 +57,33 @@ body {
   flex-direction: row-reverse;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding-right: 4rem;
-  padding-top: 3rem;
+  padding-right: 4vw;
+  padding-top: 3vw;
 }
 #title p {
   writing-mode: vertical-rl;
   color: #f0a293;
   background-color: white;
-  font-size: 2.4rem;
-  padding: 0.4rem;
-  margin: 0.8rem;
+  font-size: 3vw;
+  padding: 0.5vw;
+  margin: 0.6vw;
   border-radius: 0.5rem;
+}
+
+#logo {
+  margin-left: 3vw;
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#logo img {
+  width: 10vw;
+  margin-bottom: 1vw;
+}
+#logo p {
+  color: #c8878d;
+  font-size: 1.5vw;
 }
 
 #menu {
