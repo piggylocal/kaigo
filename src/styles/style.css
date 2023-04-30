@@ -95,16 +95,15 @@ body {
   display: flex;
   flex-direction: column;
 }
-#main-text * {
-  font-family: "Zen Maru Gothic", sans-serif;
-}
 #main-text h1 {
   margin: 2rem 0;
   text-align: center;
   font-size: 2.5rem;
+  font-family: "Kaisei Opti", serif;
 }
 #main-text p {
   margin: 0.5rem 0;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
 #menu {

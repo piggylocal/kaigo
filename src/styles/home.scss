@@ -89,17 +89,15 @@ $text-color: #333;
   display: flex;
   flex-direction: column;
 
-  * {
-    font-family: 'Zen Maru Gothic', sans-serif;
-  }
-
   h1 {
     margin: 2rem 0;
     text-align: center;
     font-size: 2.5rem;
+    font-family: 'Kaisei Opti', serif;
   }
 
   p {
     margin: 0.5rem 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
   }
 }
