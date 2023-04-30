@@ -49,7 +49,7 @@ $text-color: #333;
   flex-wrap: wrap;
   align-items: flex-start;
   padding-right: 4vw;
-  padding-top: 3vw;
+  padding-top: 4vw;
 
   p {
     writing-mode: vertical-rl;
@@ -57,7 +57,7 @@ $text-color: #333;
     background-color: white;
     font-size: 3vw;
     padding: 0.5vw;
-    margin: 0.6vw;
+    margin: 0 0.6vw;
     border-radius: 0.5rem;
     font-family: 'Kaisei Opti', serif;
   }
@@ -90,7 +90,7 @@ $text-color: #333;
   flex-direction: column;
 
   h1 {
-    margin: 2rem 0;
+    margin: 3rem 0;
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Kaisei Opti', serif;
@@ -99,5 +99,6 @@ $text-color: #333;
   p {
     margin: 0.5rem 0;
     font-family: 'Zen Maru Gothic', sans-serif;
+    letter-spacing: 1px;
   }
 }

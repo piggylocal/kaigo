@@ -1,9 +1,8 @@
 const TitleComponent = () => {
     return (
         <div id="title">
-            <p style={{marginTop: "0", paddingBottom: "0.8vw"}}>この国を</p>
-            <p style={{marginTop: "3vw", paddingTop: "1vw", paddingBottom: "0.8vw"}}>守った人を</p>
-            <p style={{marginTop: "6vw", paddingTop: "1vw", paddingBottom: "0vw", maxHeight: "16vw"}}>守りたい。</p>
+            <p style={{paddingBottom: "0.8vw"}}>この国を守った人を</p>
+            <p style={{paddingTop: "0.8vw", paddingBottom: "0.8vw"}}>守りたい</p>
         </div>
     )
 };
