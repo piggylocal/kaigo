@@ -59,6 +59,7 @@ $text-color: #333;
     padding: 0.5vw;
     margin: 0.6vw;
     border-radius: 0.5rem;
+    font-family: 'Kaisei Opti', serif;
   }
 }
 
@@ -77,6 +78,8 @@ $text-color: #333;
   p {
     color: $logo-color;
     font-size: 1.5vw;
+    font-family: 'Kaisei Opti', serif;
+    margin-bottom: -0.3vw;
   }
 }
 
@@ -85,6 +88,10 @@ $text-color: #333;
   color: $text-color;
   display: flex;
   flex-direction: column;
+
+  * {
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
 
   h1 {
     margin: 2rem 0;
