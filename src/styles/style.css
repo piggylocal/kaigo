@@ -19,13 +19,13 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  min-height: 135vh;
+  min-height: 69vw;
   min-width: 100%;
 }
 #cover .imgbox {
   top: 0;
   width: 100%;
-  height: 135vh;
+  height: 69vw;
   position: absolute;
   z-index: -1;
 }
@@ -89,14 +89,37 @@ body {
   margin-bottom: -0.3vw;
 }
 
+#character {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 66vw;
+  width: 100%;
+}
+#character img {
+  width: 20vw;
+}
+#character img.character-left {
+  transform: translateX(-20%);
+}
+#character img.character-right {
+  transform: translateX(20%);
+}
+#character img.character-middle {
+  transform: scale(2.4) translateY(40%);
+}
+
 #main-text {
-  margin: 1vw 15vw;
+  margin: 28vw 15vw 0;
   color: #333;
   display: flex;
   flex-direction: column;
 }
 #main-text h1 {
-  margin: 3rem 0;
+  margin: 0 0 3rem 0;
   text-align: center;
   font-size: 2.5rem;
   font-family: "Kaisei Opti", serif;
