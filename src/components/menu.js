@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-import MenuContentComponent from "./content.menu";
+import MenuContentComponent from "./menu.content";
 
 const MenuComponent = () => {
     const [menuActive, setMenuActive] = useState("");

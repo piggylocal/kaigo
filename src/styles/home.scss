@@ -1,5 +1,6 @@
 $title-color: #f0a293;
 $logo-color: #c8878d;
+$text-color: #333;
 
 #cover {
   display: flex;
@@ -76,5 +77,22 @@ $logo-color: #c8878d;
   p {
     color: $logo-color;
     font-size: 1.5vw;
+  }
+}
+
+#main-text {
+  margin: 1vw 10vw;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  p {
+    margin: 0.5rem 0;
   }
 }
