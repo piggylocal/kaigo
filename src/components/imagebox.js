@@ -2,9 +2,8 @@ import React, {useState, useEffect} from "react";
 
 const ImgboxComponent = () => {
     const imgUrls = [
-        "https://i.imgur.com/yd6sGar.jpg",
-        "https://i.imgur.com/vLYX3WX.jpg",
-        "https://i.imgur.com/u18Ht2V.jpg",
+        "https://i.imgur.com/5KcZQvl.jpg",
+        "https://i.imgur.com/gehrpNR.jpg",
     ];
     const opacities = Array(imgUrls.length).fill(0);
     const [imageIndex, setImageIndex] = useState(0);
