@@ -17,6 +17,7 @@ $menu-color: #333;
     text-align: center;
     color: $menu-color;
     font-size: 0.4rem;
+    font-family: 'Kaisei Opti', serif;
   }
 
   .menu-line {
@@ -70,6 +71,10 @@ $menu-color: #333;
     font-size: 2rem;
     padding: 0 0.8rem;
     color: $menu-color;
+
+    a {
+      font-family: 'Kaisei Opti', serif;
+    }
   }
 
   &.active {
