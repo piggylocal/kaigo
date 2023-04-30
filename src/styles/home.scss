@@ -112,7 +112,7 @@ $text-color: #333;
 }
 
 #main-text {
-  margin: 28vw 15vw 10rem;
+  margin: 28vw 15vw 3rem;
   color: $text-color;
   display: flex;
   flex-direction: column;
@@ -129,5 +129,47 @@ $text-color: #333;
     margin: 0.5rem 0;
     font-family: 'Zen Maru Gothic', sans-serif;
     letter-spacing: 1px;
+  }
+}
+
+#image-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 15vw 8rem;
+
+  .image-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .image-link-container {
+      width: 20vw;
+      height: 20vw;
+      border-radius: 50%;
+      cursor: pointer;
+      overflow: hidden;
+      background-color: black;
+
+      .image-link-image {
+        width: 100%;
+        height: 100%;
+        transition: 0.3s ease-in-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &:hover {
+          transform: scale(1.1);
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .image-link-description {
+      margin-top: 0.3rem;
+      font-family: 'Zen Maru Gothic', sans-serif;
+    }
   }
 }
