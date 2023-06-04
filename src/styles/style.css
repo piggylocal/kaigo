@@ -18,13 +18,13 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  min-height: 69vw;
+  min-height: 75vw;
   min-width: 100%;
 }
 #cover .imgbox {
   top: 0;
   width: 100%;
-  height: 69vw;
+  height: 75vw;
   position: absolute;
   z-index: -1;
 }
@@ -112,7 +112,7 @@ body {
 }
 
 #main-text {
-  margin: 28vw 15vw 3rem;
+  margin: 22vw 15vw 3rem;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 4rem 15vw 8rem;
+  margin: 5rem 15vw 8rem;
 }
 #image-bar .image-link {
   display: flex;
