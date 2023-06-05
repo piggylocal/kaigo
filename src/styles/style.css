@@ -130,17 +130,36 @@ body {
   letter-spacing: 1px;
 }
 
+@keyframes image-move {
+  from {
+    transform: translateX(calc(-50vw - 50%));
+  }
+  to {
+    transform: translateX(calc(70vw + 50%));
+  }
+}
 #image-bar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 5rem 15vw 8rem;
+  position: relative;
 }
 #image-bar .image-link {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  top: 0;
+  transform: translateX(calc(-50vw - 50%));
+  animation: image-move 10s linear -5s infinite;
+}
+#image-bar .image-link:nth-child(1) {
+  position: static;
+  z-index: -1;
+  opacity: 0;
+  animation: none;
 }
 #image-bar .image-link .image-link-container {
   width: 20vw;
