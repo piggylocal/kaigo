@@ -147,8 +147,9 @@ $text-color: #333;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 5rem 15vw 8rem;
+  margin: 5rem 0 8rem;
   position: relative;
+  overflow: hidden;
 
   .image-link {
     display: flex;

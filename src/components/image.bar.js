@@ -12,7 +12,7 @@ const ImageBarComponent = () => {
 
     return (
         <div id="image-bar">
-            <ImageLinkComponent />
+            <ImageLinkComponent description="dummy description" />
             {imgUrls.map((imgUrl, index) => {return (
                 <ImageLinkComponent src={imgUrl.url} description={imgUrl.desc} index={index} total={imgUrls.length} />
             )})}
