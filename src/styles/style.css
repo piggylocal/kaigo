@@ -265,17 +265,41 @@ body {
   display: flex;
   flex-direction: column;
 }
+#poster-text #poster-title-wrapper {
+  margin: 0 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #poster-text h1 {
-  margin: 0 0 3rem 0;
-  text-align: center;
+  display: inline;
   font-size: 2.5rem;
   font-family: "Kaisei Opti", serif;
   letter-spacing: 2px;
+  position: relative;
+}
+#poster-text h1 img {
+  position: absolute;
+  height: 100%;
 }
 #poster-text p {
   margin: 0.5rem 0;
   font-family: "Zen Maru Gothic", sans-serif;
   letter-spacing: 1px;
+}
+#poster-text #path-bar {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#other-images-p {
+  color: #333;
+  margin: 0.5rem 0;
+  font-family: "Zen Maru Gothic", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.3em;
 }
 
 #absolute-logo {

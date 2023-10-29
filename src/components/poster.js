@@ -19,9 +19,11 @@ const PosterComponent = () => {
     });
 
     return (
-        <div className="poster">
+        <div id="poster">
             <AbsoluteLogoComponent />
             <PosterTextComponent posterInfo={posterInfo}/>
+            <img src={`${process.env.PUBLIC_URL}/wave_dot_line.png`} alt="" style={{width: "100%", marginBottom: "3rem"}} />
+            <div style={{textAlign: "center"}}><p id="other-images-p">ほかの癒しを見よう</p></div>
             <ImageBarComponent posterInfos={posterInfosExceptId(id)} />
         </div>
     )
