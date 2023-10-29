@@ -259,4 +259,23 @@ body {
   opacity: 1;
 }
 
+#poster-text {
+  margin: 22vw 15vw 3rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+#poster-text h1 {
+  margin: 0 0 3rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Kaisei Opti", serif;
+  letter-spacing: 2px;
+}
+#poster-text p {
+  margin: 0.5rem 0;
+  font-family: "Zen Maru Gothic", sans-serif;
+  letter-spacing: 1px;
+}
+
 /*# sourceMappingURL=style.css.map */

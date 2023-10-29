@@ -5,13 +5,15 @@ import MainTextComponent from "./main.text";
 import CharacterComponent from "./character";
 import ImageBarComponent from "./image.bar";
 
+import {POSTER_INFOS} from "../constants/poster";
+
 const HomeComponent = () => {
     return (
         <div>
             <CoverComponent />
             <CharacterComponent />
             <MainTextComponent />
-            <ImageBarComponent />
+            <ImageBarComponent posterInfos={POSTER_INFOS} />
         </div>
     )
 };

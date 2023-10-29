@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MenuContentComponent = (props) => {
     const {menuActive} = props;
@@ -6,16 +7,13 @@ const MenuContentComponent = (props) => {
     return (
         <div id="menu-content" className={`${menuActive}`}>
             <div className="menu-content-text">
-                { // eslint-disable-next-line
-                }<a href="#">ホーム</a>
+                <Link to="/">ホーム</Link>
             </div>
             <div className="menu-content-text">
-                { // eslint-disable-next-line
-                }<a href="#">自己紹介</a>
+                <Link to="/">自己紹介</Link>
             </div>
             <div className="menu-content-text">
-                { // eslint-disable-next-line
-                }<a href="#">お問い合わせ</a>
+                <Link to="/">お問い合わせ</Link>
             </div>
         </div>
     )
