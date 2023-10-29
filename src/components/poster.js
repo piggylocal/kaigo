@@ -5,7 +5,7 @@ import { id2posterInfo, posterInfosExceptId } from "../constants/poster.manager"
 
 import ImageBarComponent from "./image.bar";
 import PosterTextComponent from "./poster.text";
-import LogoComponent from "./logo";
+import AbsoluteLogoComponent from "./absolute.logo";
 
 const PosterComponent = () => {
     const { id } = useParams();
@@ -20,7 +20,7 @@ const PosterComponent = () => {
 
     return (
         <div className="poster">
-            <LogoComponent />
+            <AbsoluteLogoComponent />
             <PosterTextComponent posterInfo={posterInfo}/>
             <ImageBarComponent posterInfos={posterInfosExceptId(id)} />
         </div>
